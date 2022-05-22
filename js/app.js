@@ -24,10 +24,10 @@ const app = {
       playground.appendChild(cell);
 
       cell.addEventListener("click", function () {
-        if (!isPlayerTurn) {
+        if (!app.isPlayerTurn) {
           return;
         }
-       
+        clearTimeout(app.timer);
         app.bumpCell(color);
 
         // on regarde si la couleur cliquée correspond à la couleur de la séquence à l'index courant
