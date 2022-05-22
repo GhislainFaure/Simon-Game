@@ -21,13 +21,16 @@ main#playground {
     width: 15vw;
     font-size: 2em;
     height: 10vh;
-    background-color: #ccc;
+    background-color:gold;
     border: none;
     margin: 3vh auto;
-    cursor: pointer;
+    cursor:pointer;
   }
   
   div#message {
     text-align: center;
     font-size: 2em;
+  }
+  .hidden {
+    display: none;
   }
